@@ -1,0 +1,36 @@
+/* ----------mobile responsive ---------- */
+@media screen and (max-width: 776px) {
+    header {
+        max-width: 100%;
+    }
+
+    .nav-items {
+        gap: 0rem;
+        max-width: 100%;
+    }
+
+    .nav-items ul li {
+        display: none;
+    }
+
+    .banner {
+        max-width: 100%;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .banner-text-container {
+        max-width: 100%;
+        padding: 1rem 2rem;
+    }
+    .banner-img-container img{
+        max-width: 100%;
+    }
+
+    .always,
+    .fresh {
+        display: none;
+    }
+
+
+}

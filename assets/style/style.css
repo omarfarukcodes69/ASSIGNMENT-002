@@ -1,0 +1,106 @@
+
+ /* ----------noto serif font import --------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* ------------ inter font import ----------------  */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* --------Universal Css ----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+        font-family: "Noto Serif", serif;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 7.5rem;
+}
+.btn-primary{
+    margin-top: 1.8rem;
+    padding: 1rem 2rem;
+    font-size: var(--font-small);
+    color: var(--White);
+    font-weight: 600;
+    background-color: var(--primary);
+}
+:root {
+  --font-header1: 4.1rem;
+  --font-header2: 3.125rem;
+  --font-header3: 1.375rem;
+  --font-other: 1.25rem;
+  --font-small: 1rem;
+  --White: #ffffff ;
+  --dark: #000000 ;
+  --dark2: rgba(0, 0, 0, 0.5) ;
+  --primary: #E95A08;
+
+}
+
+/* ---------navber style -------- */
+.navbar{
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+
+.nav-items ul li{
+    gap: 3.125rem;
+    text-transform: capitalize;
+}
+.nav-items ul{
+    gap: 3.125rem;
+    text-transform: capitalize;
+}
+/* -------------banner style ---------------- */
+.banner{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 11rem;
+}
+.banner-text-container {
+    max-width: 50%;
+}
+.banner-text-container h1{
+    font-size: var(--font-header1);
+    font-weight: 700;
+}
+.fresh , .flowers{
+    color: var(--primary);
+}
+/* --------plants style --------------------- */
+.plants-container{
+    padding: 1rem 7.8rem;
+}
+.plants-container h1{
+    font-size: var(--font-header2);
+    color: var(--dark);
+}
+.plants-container p{
+    font-size: var(--font-other);
+    color: var(--dark2);
+}
+.ours{
+    color: var(--primary);
+}
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:var(--font-other);
+    align-items: center;
+}
+.card-tittle, .card-price{
+    padding: 1.25 auto;
+    color: var(--dark);
+    font-size: var(--font-other);
+}
+.card button{
+    width: 100%;
+}
