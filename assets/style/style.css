@@ -151,9 +151,10 @@ section {
 }
 
 /* ------------ deals section style --------------------- */
-.latest{
+.latest {
     color: var(--primary);
 }
+
 .deal-text-container {
     font-size: var(--font-header3);
     text-align: center;
@@ -163,7 +164,8 @@ section {
 .deal-text-container h1 {
     margin-bottom: 1rem;
 }
-.deal-cards-container{
+
+.deal-cards-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
@@ -173,26 +175,61 @@ section {
     color: var(--White);
     font-weight: 700;
 }
-.bg-1{
+
+.bg-1 {
     background-image: url(../images/deal-ana.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-.bg-2{
+
+.bg-2 {
     background-image: url(../images/deal-bloom.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-.deal-card{
+
+.deal-card {
     padding: 65px 50px;
-    margin:2rem auto;
+    margin: 2rem auto;
     border-radius: .5rem;
 
 }
-.deal-big-card{
+
+.deal-big-card {
     background-image: url(../images/deal-zabo.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     padding: 10.7rem 0;
     border-radius: .5rem;
+}
+
+/* ------------ join section style ---------- */
+.join {
+    background-image: url(../images/news-letter-bg.png);
+    background-size: cover;
+    max-width: 100%;
+    padding: 12.5rem 0;
+    text-align: center;
+    color: var(--White);
+}
+
+.join-input {}
+
+.join-input input {
+    width: 600px;
+    background-color: var(--White);
+    color: var(--dark);
+    padding: 20px 3.25rem;
+    margin: 1.5rem auto;
+    font-size: 1rem;
+}
+.join-input input::placeholder {
+    color: var(--dark2);
+}
+
+.join-input label {
+    height: 50px;
+    background-color: var(--primary);
+    padding: 22px 3.25rem;
+    margin: 1.5rem -.5rem;
 }
