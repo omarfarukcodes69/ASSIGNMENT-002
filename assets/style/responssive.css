@@ -31,6 +31,24 @@
     .fresh {
         display: none;
     }
-
+    /* ---------plants section---------------- */
+    .plants-container{
+        width: 100%;
+        padding: 1rem;
+    }
+  .plants-cards{
+        margin: 1rem 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* ------------------- lover section------------------  */
+    .lover{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .trusted{
+        display: none;
+    }
 
 }

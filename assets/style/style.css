@@ -96,11 +96,30 @@ section{
     gap:var(--font-other);
     align-items: center;
 }
-.card-tittle, .card-price{
-    padding: 1.25 auto;
+.card p{
+    padding: 5.5rem auto;
     color: var(--dark);
     font-size: var(--font-other);
 }
 .card button{
     width: 100%;
+}
+
+/* ----lover style------- */
+.lover-img-container{
+    position: relative;
+    width: 100%;
+}
+.trusted{
+    width: 286px;
+    position: absolute;
+    top: -20%;
+    right: -20%;
+}
+.lover-text-container{
+    width: 100%;
+}
+.lover-text-container ul li{
+    padding: .5rem 2rem;
+    list-style:circle ;
 }
