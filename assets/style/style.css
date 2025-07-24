@@ -236,5 +236,28 @@ section {
     padding: 3.125rem 0;
     display: flex;
     justify-content:space-around;
-    align-items: center;
+    color: var(--dark2);
+}
+.f-info-container{
+    width:250px;
+}
+.f-navbar{
+    display: flex;
+    gap: 2rem;
+}
+
+.f-navbar ul:first-child{
+    margin-right: 7rem;
+}
+.f-navbar ul li{
+    padding-top: 2rem;
+    font-weight: 600;
+}
+.f-navbar ul li:first-child{
+    padding-top: 0;
+}
+.f-icons ul{
+    display: flex;
+    gap: 1.5rem;
+
 }
