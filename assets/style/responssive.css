@@ -23,7 +23,8 @@
         max-width: 100%;
         padding: 1rem 2rem;
     }
-    .banner-img-container img{
+
+    .banner-img-container img {
         max-width: 100%;
     }
 
@@ -31,33 +32,47 @@
     .fresh {
         display: none;
     }
+
     /* ---------plants section---------------- */
-    .plants-container{
+    .plants-container {
         width: 100%;
         padding: 1rem;
     }
-  .plants-cards{
+
+    .plants-cards {
         margin: 1rem 2rem;
         grid-template-columns: repeat(2, 1fr);
     }
+
     /* ------------------- lover section------------------  */
-    .lover{
+    .lover {
         width: 90%;
         margin: 0 auto;
         margin-top: 3rem;
         flex-direction: column;
     }
-    .trusted{
+
+    .trusted {
         display: none;
     }
+
     /* -----deal section ----------------- */
-    .deal-text-container{
+    .deal-text-container {
         padding: 1rem;
 
     }
-    .deal-cards-container{
-        grid-template-columns: repeat(1,1fr);
-                width: 90%;
+
+    .deal-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
         margin: 0 auto;
     }
+
+/* ------------joun section ------------ */
+    .join-input input {
+        width: 300px;
+    }
+    .join-input label {
+    padding: 22px 16px;
+}
 }
