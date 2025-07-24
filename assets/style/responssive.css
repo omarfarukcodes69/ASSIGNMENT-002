@@ -50,5 +50,14 @@
     .trusted{
         display: none;
     }
+    /* -----deal section ----------------- */
+    .deal-text-container{
+        padding: 1rem;
 
+    }
+    .deal-cards-container{
+        grid-template-columns: repeat(1,1fr);
+                width: 90%;
+        margin: 0 auto;
+    }
 }
