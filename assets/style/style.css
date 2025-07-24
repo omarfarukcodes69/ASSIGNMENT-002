@@ -212,6 +212,7 @@ section {
     text-align: center;
     color: var(--White);
 }
+
 .join-input input {
     width: 600px;
     background-color: var(--White);
@@ -220,6 +221,7 @@ section {
     margin: 1.5rem auto;
     font-size: 1rem;
 }
+
 .join-input input::placeholder {
     color: var(--dark2);
 }
@@ -232,31 +234,36 @@ section {
 }
 
 /* ----------------footer sectio style ----------------- */
-.footer-container{
+.footer-container {
     padding: 3.125rem 0;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     color: var(--dark2);
 }
-.f-info-container{
-    width:250px;
+
+.f-info-container {
+    width: 250px;
 }
-.f-navbar{
+
+.f-navbar {
     display: flex;
     gap: 2rem;
 }
 
-.f-navbar ul:first-child{
+.f-navbar ul:first-child {
     margin-right: 7rem;
 }
-.f-navbar ul li{
+
+.f-navbar ul li {
     padding-top: 2rem;
     font-weight: 600;
 }
-.f-navbar ul li:first-child{
+
+.f-navbar ul li:first-child {
     padding-top: 0;
 }
-.f-icons ul{
+
+.f-icons ul {
     display: flex;
     gap: 1.5rem;
 

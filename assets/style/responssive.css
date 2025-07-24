@@ -68,23 +68,27 @@
         margin: 0 auto;
     }
 
-/* ------------joun section ------------ */
+    /* ------------joun section ------------ */
     .join-input input {
         width: 300px;
     }
+
     .join-input label {
-    padding: 22px 16px;
-}
-/* -----footer section ------------ */
-.footer-container{
-    flex-direction: column;
-    margin: 2rem;
-}
-.f-navbar{
-    flex-direction: column;
-}
-.f-icons ul{
-    flex-direction: row;
-    margin-top: 2rem;
-}
+        padding: 22px 16px;
+    }
+
+    /* -----footer section ------------ */
+    .footer-container {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .f-navbar {
+        flex-direction: column;
+    }
+
+    .f-icons ul {
+        flex-direction: row;
+        margin-top: 2rem;
+    }
 }
